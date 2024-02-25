@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../components/Navigation.js';
-import BannerAbout from '../components/BannerAbout.js'
 import Collapse from '../components/Collapse.js'
 import Footer from '../components/Footer.js';
 
@@ -24,7 +23,6 @@ const Aboutpage = () => {
     return (
         <div>
             <Navigation/>
-            <BannerAbout/>
             <div>
                 {aboutData.map((data, index) => (
                     <Collapse key={index} title={data.title} content={data.content}/>
