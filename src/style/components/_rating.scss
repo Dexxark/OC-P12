@@ -1,0 +1,11 @@
+.rating {
+    .star {
+        width: 25px;
+        margin-left: 15px;
+
+        @include phone {
+            width: 14px;
+            margin-left: 7px;
+        }
+    }
+}
