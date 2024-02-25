@@ -9,10 +9,10 @@ const App = () => {
     return (
        <BrowserRouter>
         <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutpage />} />
         <Route path="/:id" element={<Housing />} />
         <Route path='/Page404' element={<Page404 />} />
+        <Route path="/" element={<Home />} />
         </Routes>
        </BrowserRouter>
     );
